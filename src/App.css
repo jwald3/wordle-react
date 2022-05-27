@@ -10,6 +10,7 @@
 body {
   padding: 0%;
   margin: 0;
+  overflow: hidden;
 }
 
 nav {
@@ -127,28 +128,43 @@ nav h1 {
 }
 
 @media only screen and (max-width: 500px) {
+  .nav {
+    height: 3rem;
+  }
+
+  .nav h1 {
+    font-size: 2rem;
+  }
+
+  .game {
+    padding-top: 1rem;
+  }
+
   .keyboard {
-    width: 20.5rem;
+    width: 100vw;
+    margin-top: 4rem;
   }
 
   .board {
-    width: 18.75rem;
-    height: 18.75rem;
+    width: 50vw;
+    height: 30vh;
   }
 
   .key {
-    width: 3.125rem;
+    width: 3.25rem;
     height: 3.125rem;
     font-size: .625rem;
+    margin: .1rem;
   }
 
   .row {
-    margin: 0.2rem;
+    margin: 0rem;
   }
 
   .letter {
     margin: 0.1rem;
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.25rem;
   }
 }
