@@ -125,3 +125,19 @@ nav h1 {
 #disabled {
   background-color: #3a393c;
 }
+
+@media only screen and (max-width: 400px) {
+  .keyboard {
+    width: 20.5rem;
+  }
+
+  .board {
+    width: 18.75rem;
+  }
+
+  .key {
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: .625rem;
+  }
+}
