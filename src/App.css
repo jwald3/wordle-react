@@ -133,11 +133,22 @@ nav h1 {
 
   .board {
     width: 18.75rem;
+    height: 18.75rem;
   }
 
   .key {
     width: 3.125rem;
     height: 3.125rem;
     font-size: .625rem;
+  }
+
+  .row {
+    margin: 0.2rem;
+  }
+
+  .letter {
+    margin: 0.1rem;
+    width: 3.125rem;
+    height: 3.125rem;
   }
 }
